@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background: url(image.png/BG.png);
@@ -57,9 +60,6 @@ body {
   .nav-link-download .link-image {
     padding-right: 6px;
   }
-
-  
-
   main {
     display: flex;
     justify-content: center;
@@ -92,8 +92,8 @@ body {
   }
 
   .social-icons a {
-  text-decoration: none;
-  margin: 0 19px;
+    text-decoration: none;
+    margin: 0 19px;
   }
 
   h3 {
@@ -112,11 +112,11 @@ body {
   .first-name,
   .email,
   .password {
-  /*ikonka poseredine input  */
-  display: flex;
-  margin-bottom: 46px;
-
+    /*ikonka poseredine input  */
+    display: flex;
+    margin-bottom: 46px;
   }
+
 .first-name input,
 .email input,
 .password input {
@@ -167,19 +167,18 @@ body {
 .button-get-started input:focus {
   outline: none;
   color: grey ;
-  /* color:  #d2d2d2; */
-  /* background-color: #d2d2d2; */
 }
+
 footer {
-    /* background: #d2d2d2; */
-    max-width: 1136px;
-    padding: 72px 24px 33px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-  
+  /* background: #d2d2d2; */
+  max-width: 1136px;
+  padding: 72px 24px 33px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
+
 .footer-nav {
   /* background: grey; */
 }
@@ -212,9 +211,10 @@ footer {
   }
   .footer-inform {
    text-align: center;
+   margin-top: 30px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 520px) {
 .first-name input,
 .email input,
 .password input {

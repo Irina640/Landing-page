@@ -31,16 +31,16 @@ body {
     
   }
   .header-nav {
-   background-color: #AB47BC;
+   /* background-color: #AB47BC; */
    display: flex;
-   /* justify-content: center; */
-   /* align-items: stretch; */
+   justify-content: center;
+   align-items: stretch;
   }
 
   .header-nav a {
-    background-color: #d2d2d2;
-    /* display: flex; */
-    /* align-items: center; */
+    /* background-color: #d2d2d2; */
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 12px;
     line-height: 23px;

@@ -3,12 +3,13 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background: url(image.png/BG.png);
+  background: url(images/BG.png);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   margin: 0;
   }
+
  
   header {
     max-width: 1139px;
@@ -135,19 +136,19 @@ body {
 }
 
 .first-name::before {
-  content: url("image.png/face.png");
+  content: url("images/face.png");
   margin-right: 15px;
   margin-left: 4px;
 
 }
 .email::before {
-  content: url("image.png/letter.png");
+  content: url("images/letter.png");
   margin-right: 15px;
   margin-left: 4px;
 }
 
 .password::before {
-  content: url("image.png/lock.png");
+  content: url("images/lock.png");
   margin-right: 15px;
   margin-left: 4px;
 }

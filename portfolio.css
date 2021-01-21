@@ -1,0 +1,67 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+background-color:#E5E5E5;
+font-family: 'Roboto', sans-serif;
+}
+.section-team {
+    /* background: cyan; */
+    margin-bottom: 170px;
+  }
+  .team-title {
+   margin-bottom:  86px;
+  }
+
+  .team-inform {
+    /* background: cornflowerblue; */
+    max-width: 1132px;
+    margin: 0px auto;
+  }
+  .team-row {
+    display: flex;
+    margin: 0px -19px;
+  }
+  .team-column {
+    display: flex;
+    /* flex: 0 1 33.333%; */
+    flex-wrap: ;
+    padding: 0px 19px;
+  }
+
+  .person-item {
+    /* background: cornsilk; */
+   text-align: center;
+  }
+
+  .person-name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #3C4858;
+  }
+  .person-profesion {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #777777;
+    padding: 7px 0 35px 0;
+  }
+  .person-description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    padding-bottom: 30px;
+    
+  }
+  .person-contact {
+    text-align: center;
+  }
+
+  .person-contact a {
+    text-decoration: none;
+    text-align: center;
+    padding-right: 29px;
+  }
